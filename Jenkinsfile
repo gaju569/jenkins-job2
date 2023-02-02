@@ -5,19 +5,19 @@ pipeline {
    
       stage('build') {
          steps {
-          echo "building tomcat-application.."
+          echo "building gjthub-application.."
          }
       }    
 
       stage('test') {
          steps {
-          echo "testing tomcat-application..."
+          echo "testing github-application..."
          }
       }
    
      stage('deploy') {
         steps {
-         echo "deploying tomcat-application..."
+         echo "deploying github-application..."
         } 
       } 
    } 
