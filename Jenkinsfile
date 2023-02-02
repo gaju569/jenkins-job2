@@ -5,19 +5,19 @@ pipeline {
    
       stage('build') {
          steps {
-          echo "building node.js-application.."
+          echo "building java-application.."
          }
       }    
 
       stage('test') {
          steps {
-          echo "testing node.js-application..."
+          echo "testing java-application..."
          }
       }
    
      stage('deploy') {
         steps {
-         echo "deploying node.js-application..."
+         echo "deploying java-application..."
         } 
       } 
    } 
