@@ -15,7 +15,7 @@ pipeline {
          }
       }
    
-      stage('deploy')
+     stage('deploy') {
         steps {
          echo "deploying tomcat-application..."
         } 
