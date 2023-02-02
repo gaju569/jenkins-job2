@@ -5,19 +5,19 @@ pipeline {
    
       stage('build') {
          steps {
-          echo "building java-application.."
+          echo "building java based-application.."
          }
       }    
 
       stage('test') {
          steps {
-          echo "testing java-application..."
+          echo "testing java based-application..."
          }
       }
    
      stage('deploy') {
         steps {
-         echo "deploying java-application..."
+         echo "deploying java baesd-application..."
         } 
       } 
    } 
